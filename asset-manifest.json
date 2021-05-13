@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Glassmorph/static/css/main.5fc844a7.chunk.css",
-    "main.js": "/Glassmorph/static/js/main.42a90ccb.chunk.js",
-    "main.js.map": "/Glassmorph/static/js/main.42a90ccb.chunk.js.map",
+    "main.js": "/Glassmorph/static/js/main.70474a31.chunk.js",
+    "main.js.map": "/Glassmorph/static/js/main.70474a31.chunk.js.map",
     "runtime-main.js": "/Glassmorph/static/js/runtime-main.d9a9145d.js",
     "runtime-main.js.map": "/Glassmorph/static/js/runtime-main.d9a9145d.js.map",
     "static/js/2.076f2538.chunk.js": "/Glassmorph/static/js/2.076f2538.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d9a9145d.js",
     "static/js/2.076f2538.chunk.js",
     "static/css/main.5fc844a7.chunk.css",
-    "static/js/main.42a90ccb.chunk.js"
+    "static/js/main.70474a31.chunk.js"
   ]
 }
