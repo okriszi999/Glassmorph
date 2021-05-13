@@ -9,7 +9,8 @@ export default function Bubble({positionX, positionY, blur, transparency, height
     width: `${height}px`,
     height: `${width}px`,
     borderRadius: "50%",
-    backdropFilter: `blur(${blur}px)`
+    backdropFilter: `blur(${blur}px)`,
+    webkitBackdropFilter: `blur(${blur}px)`
 };
 
   return <div style={style}></div>;
