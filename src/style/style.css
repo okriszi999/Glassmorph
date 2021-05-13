@@ -1,0 +1,110 @@
+body {
+  background: #fdd5db;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgba(255, 182, 193, 0.781), transparent);
+  padding: 1rem;
+  height: 5em;
+  color: white;
+  text-shadow: 0px 0px 1em black;
+  font-size: 1.2rem;
+}
+
+.result {
+  display: block;
+  overflow: hidden;
+  word-wrap: break-word;
+  line-height: 2em;
+  position: relative;
+  background: red;
+  height: 75%;
+  width: 30%;
+  padding: 1em;
+  border-radius: 1em;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+}
+
+.result .bubble {
+  position: absolute;
+  background: #000;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(24px);
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.mainSection {
+  display: flex;
+  color: white;
+  gap: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainSection .config {
+  background: rgba(236, 236, 236, 0.548);
+  padding: 2em;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border-radius: 2em;
+  box-shadow: 0.1em 0.1em 0.23em gray;
+}
+
+.mainSection code {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3rem;
+  background: #072536;
+  padding: 1em;
+  color: #afd5eb;
+}
+
+.mainSection code .bracket {
+  color: #67e49b;
+}
+
+.mainSection code .value {
+  color: #d164c3;
+}
+
+.mainSection code .property {
+  color: #d9eebe;
+}
+
+.mainSection .rangeInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+  header .author {
+    display: none;
+  }
+  header {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .mainSection {
+    flex-direction: column;
+  }
+  .mainSection .config {
+    width: 80%;
+  }
+  .result {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
