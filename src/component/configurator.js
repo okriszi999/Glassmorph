@@ -1,9 +1,14 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import RangeInput from './rangeInput'
 
-function Configurator() {
+function Configurator({getOriginalBlur, getOriginalTransparency}) {
     const [transparency, setTransparency] = useState(20);
     const [blur, setBlur] = useState(100)
+
+    useEffect(() => {
+        getOriginalTransparency(transparency);
+        getOriginalBlur(blur);
+    }, [blur, transparency])
     return (
         <section className="config">
             <h1>Configurator</h1>
